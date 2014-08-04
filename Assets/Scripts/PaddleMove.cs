@@ -4,7 +4,7 @@ using System.Collections;
 public class PaddleMove : MonoBehaviour {
 
 	public Vector2 speed = new Vector2(0,10);
-	
+
 	private Vector2 movement;
 	
 	void Update () {
