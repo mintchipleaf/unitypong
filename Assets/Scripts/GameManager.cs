@@ -4,8 +4,6 @@ using System.Collections;
 public class GameManager : MonoBehaviour {
 	public int ball_speed;
 	public GameObject ball_prefab;
-	private int playerScore = new int();
-	private int CPUScore = new int();
 
 	public void BallSpawn () {
 		float random = Random.Range(0,4);
@@ -27,10 +25,6 @@ public class GameManager : MonoBehaviour {
 		}
 
 		ball.rigidbody2D.AddForce(speed);
-	}
-
-	public void PointScore(string player) {
-		
 	}
 
 	// Use this for initialization

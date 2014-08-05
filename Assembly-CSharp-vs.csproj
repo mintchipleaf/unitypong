@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PaddleMove.cs" />
+     <Compile Include="Assets\Scripts\PointKeeper.cs" />
      <Compile Include="Assets\Scripts\PointScore.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
