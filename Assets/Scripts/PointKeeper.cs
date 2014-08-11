@@ -14,6 +14,7 @@ public class PointKeeper : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		textMesh = this.GetComponent<TextMesh>();
+		textMesh.text = "0";
 	}
 	
 	// Update is called once per frame
